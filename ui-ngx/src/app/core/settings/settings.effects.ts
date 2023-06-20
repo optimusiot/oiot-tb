@@ -75,9 +75,8 @@ export class SettingsEffects {
   ).pipe(
     tap(() => {
       this.titleService.setTitle(
-        // this.router.routerState.snapshot.root,
-        // this.translate
-        "OptimusIOT | Dashboard"
+        this.router.routerState.snapshot.root,
+        this.translate
       );
     })
   ), {dispatch: false});
