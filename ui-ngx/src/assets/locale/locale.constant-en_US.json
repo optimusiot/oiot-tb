@@ -172,7 +172,7 @@
         "domain-name": "Domain name",
         "domain-name-unique": "Domain name and protocol need to unique.",
         "domain-name-max-length": "Domain name should be less than 256",
-        "error-verification-url": "A domain name shouldn't contain symbols '/' and ':'. Example: thingsboard.io",
+        "error-verification-url": "A domain name shouldn't contain symbols '/' and ':'. Example: OptimusIOT.io",
         "oauth2": {
           "access-token-uri": "Access token URI",
           "access-token-uri-required": "Access token URI is required.",
@@ -970,8 +970,8 @@
         "make-private-dashboard-title": "Are you sure you want to make the dashboard '{{dashboardTitle}}' private?",
         "make-private-dashboard-text": "After the confirmation the dashboard will be made private and won't be accessible by others.",
         "make-private-dashboard": "Make dashboard private",
-        "socialshare-text": "'{{dashboardTitle}}' powered by ThingsBoard",
-        "socialshare-title": "'{{dashboardTitle}}' powered by ThingsBoard",
+        "socialshare-text": "'{{dashboardTitle}}' powered by OptimusIOT",
+        "socialshare-title": "'{{dashboardTitle}}' powered by OptimusIOT",
         "select-dashboard": "Select dashboard",
         "no-dashboards-matching": "No dashboards matching '{{entity}}' were found.",
         "dashboard-required": "Dashboard is required.",
@@ -2564,10 +2564,10 @@
             "file-storage": "File storage",
             "memory-storage": "Memory storage"
         },
-        "thingsboard": "ThingsBoard",
-        "thingsboard-host": "ThingsBoard host",
+        "thingsboard": "OptimusIOT",
+        "thingsboard-host": "OptimusIOT host",
         "thingsboard-host-required": "Host is required.",
-        "thingsboard-port": "ThingsBoard port",
+        "thingsboard-port": "OptimusIOT port",
         "thingsboard-port-max": "Maximum port number is 65535.",
         "thingsboard-port-min": "Minimum port number is 1.",
         "thingsboard-port-pattern": "Port is not valid.",
@@ -3532,7 +3532,7 @@
         "tenant-required": "Tenant is required",
         "search": "Search tenants",
         "selected-tenants": "{ count, plural, =1 {1 tenant} other {# tenants} } selected",
-        "isolated-tb-rule-engine": "Processing in isolated ThingsBoard Rule Engine container",
+        "isolated-tb-rule-engine": "Processing in isolated OptimusIOT Rule Engine container",
         "isolated-tb-rule-engine-details": "Requires separate microservice(s) per isolated Tenant"
     },
     "tenant-profile": {
@@ -5238,7 +5238,7 @@
         },
         "functions": {
             "title": "Functions",
-            "pe-feature-tooltip": "Only on ThingsBoard\nProfessional Edition",
+            "pe-feature-tooltip": "Only on OptimusIOT\nProfessional Edition",
             "switch-to-pe": "Switch to PE",
             "alarms": "Alarms",
             "dashboards": "Dashboards",
